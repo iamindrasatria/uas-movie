@@ -15,6 +15,9 @@
         android:theme="@style/Theme.UASMovie"
         tools:targetApi="31">
         <activity
+            android:name=".Navigation"
+            android:exported="false" />
+        <activity
             android:name=".Navigasi"
             android:exported="false" />
         <activity
